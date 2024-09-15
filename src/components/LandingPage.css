@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@font-face {
+  font-family: "Sansation";
+  src: url("../fonts/Sansation_Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 950px;
+  padding-bottom: 20px;
+  font-family: "Sansation", sans-serif;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+.footer-logo {
+  width: 202px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 77px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.footer-rights {
+  font-size: 16px;
+  text-align: center;
+  width: 33%;
+  max-width: 1200px;
+  padding-bottom: 170px;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* Estilos de la nueva sección */
+.community-showcase {
+  background-color: #002f4e;
+  padding: 50px 20px;
+  text-align: center;
+  color: white;
+  padding-bottom: 100px;
+}
+
+.community-showcase h2 {
+  font-size: 24px;
+  font-family: "Sansation", sans-serif;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.community-showcase p {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 40px;
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  padding: 0 300px;
+}
+
+.image-card {
+  background-color: #c4c4c4;
+  border-radius: 27px;
+  width: 100%;
+  padding-top: 80%;
+  position: relative;
+}
+
+/* Estilo responsivo para dispositivos móviles */
+@media (max-width: 1024px) {
+  .image-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .image-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .image-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.image1 {
+  background-image: url("../assets/health.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.image2 {
+  background-image: url("../assets/plane.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.image3 {
+  background-image: url("../assets/transport.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.image4 {
+  background-image: url("../assets/shield.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.image5 {
+  background-image: url("../assets/area.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.image6 {
+  background-image: url("../assets/5.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.image7 {
+  background-image: url("../assets/10.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.image8 {
+  background-image: url("../assets/12.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.image-text-section {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Cambiado para centrar horizontalmente los elementos dentro */
+  background-color: #0b273a;
+  padding: 80px 300px;
+  color: white;
+  padding-bottom: 200px;
+}
+
+.image-container {
+  border-radius: 27px;
+  width: 500px;
+  height: 400px;
+  background-image: url("../assets/sede-monterrico.png");
+  margin-right: 40px;
+}
+
+.text-container {
+  max-width: 500px;
+  text-align: left; /* Asegura que el texto esté alineado a la izquierda */
+}
+
+.text-container h2 {
+  font-family: "Sansation", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: left; /* Asegura que el texto esté alineado a la izquierda */
+}
+
+.text-container p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Responsividad para dispositivos móviles */
+@media (max-width: 750) {
+  .image-text-section {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .image-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .text-container {
+    margin-left: 0;
+  }
+}
+/* NUEVA SECTION */
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* La sección ocupará toda la altura de la pantalla */
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  color: white;
+}
+
+.hero-background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Asegura que la imagen de fondo cubra el área */
+}
+
+.hero-image {
+  position: absolute;
+  bottom: 0; /* La imagen superpuesta empieza desde abajo */
+  left: 50%;
+  transform: translateX(
+    -50%
+  ); /* Centra la imagen superpuesta horizontalmente */
+  width: 100%; /* Ajusta el tamaño de la imagen superpuesta */
+  margin-bottom: -15vh;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-content {
+  position: absolute;
+  z-index: 2;
+  max-width: 600px;
+  padding-left: 50px;
+  left: 180px;
+  bottom: 350px;
+}
+
+.hero-content h1 {
+  font-size: 62px;
+  font-weight: bold;
+  font-family: "Sansation", sans-serif;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 20px;
+  line-height: 1.6;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 30px;
+}
+
+.play-button {
+  font-family: "Sansation", sans-serif;
+  font-size: 16px;
+  background-color: #00a4ca;
+  border: 2px solid white; /* Añade un borde blanco */
+  border-radius: 1000px;
+  color: white;
+  padding: 15px 50px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.header {
+  background-color: transparent;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1440px;
+  font-family: "Sansation", sans-serif;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+.header-logo {
+  width: 202px;
+}
+
+.header-links {
+  display: flex;
+  gap: 77px;
+}
+
+.header-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
