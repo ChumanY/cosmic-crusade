@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.51894d64.css",
+    "main.js": "/static/js/main.d18c5330.js",
+    "static/js/453.f75e2088.chunk.js": "/static/js/453.f75e2088.chunk.js",
+    "static/media/5.png": "/static/media/5.92b76c3426779ca7aec8.png",
+    "static/media/12.png": "/static/media/12.f127a5013787680aa0e5.png",
+    "static/media/10.png": "/static/media/10.1e6817d97fd2cc8652ab.png",
+    "static/media/portada-figma.png": "/static/media/portada-figma.abf9f8526c7e9af030a2.png",
+    "static/media/plane.png": "/static/media/plane.a368bed9689364673338.png",
+    "static/media/health.png": "/static/media/health.7c8ecf966edae687d9b4.png",
+    "static/media/shield.png": "/static/media/shield.a553cf2103dad0698913.png",
+    "static/media/area.png": "/static/media/area.766498a394eeeefb3fdc.png",
+    "static/media/transport.png": "/static/media/transport.86f4d5a1d9dae59116fd.png",
+    "static/media/sede-monterrico.png": "/static/media/sede-monterrico.e4f3a5390440da50fd4e.png",
+    "static/media/Sansation_Bold.ttf": "/static/media/Sansation_Bold.01acb21b3a650eee9aa6.ttf",
+    "static/media/logo.png": "/static/media/logo.42a80dcf6e6c389bf9b4.png",
+    "static/media/Group.png": "/static/media/Group.c82021e8deb491364ddf.png",
+    "index.html": "/index.html",
+    "main.51894d64.css.map": "/static/css/main.51894d64.css.map",
+    "main.d18c5330.js.map": "/static/js/main.d18c5330.js.map",
+    "453.f75e2088.chunk.js.map": "/static/js/453.f75e2088.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51894d64.css",
+    "static/js/main.d18c5330.js"
+  ]
+}
