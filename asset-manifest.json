@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cosmic-crusade/static/css/main.abeabf9d.css",
-    "main.js": "/cosmic-crusade/static/js/main.aeb84e83.js",
+    "main.css": "/cosmic-crusade/static/css/main.be3f3d79.css",
+    "main.js": "/cosmic-crusade/static/js/main.3fe20c97.js",
     "static/js/453.f75e2088.chunk.js": "/cosmic-crusade/static/js/453.f75e2088.chunk.js",
     "static/media/5.png": "/cosmic-crusade/static/media/5.92b76c3426779ca7aec8.png",
     "static/media/12.png": "/cosmic-crusade/static/media/12.f127a5013787680aa0e5.png",
@@ -17,12 +17,12 @@
     "static/media/logo.png": "/cosmic-crusade/static/media/logo.42a80dcf6e6c389bf9b4.png",
     "static/media/Group.png": "/cosmic-crusade/static/media/Group.c82021e8deb491364ddf.png",
     "index.html": "/cosmic-crusade/index.html",
-    "main.abeabf9d.css.map": "/cosmic-crusade/static/css/main.abeabf9d.css.map",
-    "main.aeb84e83.js.map": "/cosmic-crusade/static/js/main.aeb84e83.js.map",
+    "main.be3f3d79.css.map": "/cosmic-crusade/static/css/main.be3f3d79.css.map",
+    "main.3fe20c97.js.map": "/cosmic-crusade/static/js/main.3fe20c97.js.map",
     "453.f75e2088.chunk.js.map": "/cosmic-crusade/static/js/453.f75e2088.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.abeabf9d.css",
-    "static/js/main.aeb84e83.js"
+    "static/css/main.be3f3d79.css",
+    "static/js/main.3fe20c97.js"
   ]
 }
