@@ -29,8 +29,7 @@ function LandingPage() {
             </a>
           </div>
         </div>
-      </header>{" "}
-      {/* Nueva Sección con fondo de imagen y otra imagen superpuesta */}
+      </header>
       <section id="hero" className="hero-section">
         <div className="hero-background">
           <img src={BackgroundFirstSection} />
@@ -39,17 +38,18 @@ function LandingPage() {
           <h1>¡Únete a la aventura de Cosmic Crusade!</h1>
           <p>
             Experimenta la emoción del juego inspirado en Starcraft II.
-            <br></br>
+            <br />
             Conéctate con otros jugadores, comparte estrategias y conviértete en
             parte de nuestra vibrante comunidad.
           </p>
-          <button className="play-button">Juega ahora</button>
+          <a href="/CosmicCrusade.exe.zip" download className="play-button">
+            Juega ahora
+          </a>
         </div>
         <div className="hero-image">
           <img src={LogoFooter} alt="Foreground" />
         </div>
       </section>
-      {/* Sección Similar a la Imagen Proporcionada */}
       <section id="about" className="image-text-section">
         <div className="image-container"></div>
         <div className="text-container">
@@ -66,7 +66,6 @@ function LandingPage() {
           </p>
         </div>
       </section>
-      {/* Community Showcase Section */}
       <section id="community" className="community-showcase">
         <h2>Galería multimedia</h2>
         <p>

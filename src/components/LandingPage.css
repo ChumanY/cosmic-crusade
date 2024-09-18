@@ -292,7 +292,7 @@
   font-family: "Sansation", sans-serif;
   font-size: 16px;
   background-color: #00a4ca;
-  border: 2px solid white; /* Añade un borde blanco */
+  border: 2px solid white; 
   border-radius: 1000px;
   color: white;
   padding: 15px 50px;
@@ -300,6 +300,7 @@
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  text-decoration: none; /* Quita el subrayado */
 }
 
 .header {
