@@ -42,7 +42,11 @@ function LandingPage() {
             Conéctate con otros jugadores, comparte estrategias y conviértete en
             parte de nuestra vibrante comunidad.
           </p>
-          <a href="/CosmicCrusade.exe.zip" download className="play-button">
+          <a
+            href="https://github.com/ChumanY/cosmic-crusade/releases/download/v1.0.0/CosmicCrusade.exe.zip"
+            download
+            className="play-button"
+          >
             Juega ahora
           </a>
         </div>
